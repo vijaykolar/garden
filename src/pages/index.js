@@ -10,26 +10,6 @@ import ProductList from '../components/ProductList';
 
 class IndexPage extends React.Component {
 
-  constructor() {
-    super();
-    this.state= {
-      count: 0
-    }
-
-    this.productImage = this.productImage.bind(this);
-  }
-
-  async productImage() {
-
-    const response = await axios.get('', {
-      params: 90
-    })
-      console.log(response);
-    this.setState({
-      count: response
-    })
-  }
-
   render() {
     return (  
       <Layout>
@@ -37,9 +17,6 @@ class IndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <SectionTitle title="work"/>
-            <ProductList productImage={this.state.count} />
-
-            {/* {this.state.count} */}
           </div>
         </section>
       </Layout>
