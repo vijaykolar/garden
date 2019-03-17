@@ -7,7 +7,8 @@ import './header.css';
 const Header = ({ siteTitle }) => (
   <header style={{ background: `#f8f8f8` }}  className="header">
     <div className="container">
-      <nav className="navbar navbar-expand-lg">
+      
+      <nav className="navbar px-0 navbar-expand-lg">
          <Link to="/" className="logo">
           <img src={logo} alt='logo' className="logo__img"/>
           <span className="logo__text"> green factory </span>
