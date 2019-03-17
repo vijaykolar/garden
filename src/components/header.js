@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        // padding: `1rem 0`,
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -27,6 +27,8 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      
+      <Link to="/page-2/">Go to page 2</Link>
     </div>
   </header>
 )
