@@ -5,7 +5,7 @@ import logo from '../images/logo.png'
 import './header.css';
 
 const Header = ({ siteTitle }) => (
-  <header style={{ background: `#f8f8f8` }} >
+  <header style={{ background: `#f8f8f8` }}  className="header">
     <div className="container">
       <nav className="navbar navbar-expand-lg">
          <Link to="/" className="logo">
