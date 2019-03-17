@@ -2,7 +2,7 @@ import React from 'react';
 import './banner-img.css';
 
 export const Banner = (props) => {
-    console.log(props)
+    // console.log(props)
     return (
         <div className="position-relative">
             

@@ -16,7 +16,7 @@ class IndexPage extends React.Component {
         <SEO title="Home" keywords={[`Garden`, `Vertical garden`, `Garden providers`]} />
         <section className="section">
           <div className="container">
-            <SectionTitle title="work"/>
+            <SectionTitle title="work" />
           </div>
         </section>
       </Layout>
