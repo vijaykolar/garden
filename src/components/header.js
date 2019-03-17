@@ -5,12 +5,12 @@ import logo from '../images/logo.png'
 import './header.css';
 
 const Header = ({ siteTitle }) => (
-  <header style={{ background: `rebeccapurple` }} >
+  <header style={{ background: `#f8f8f8` }} >
     <div className="container">
       <nav className="navbar navbar-expand-lg">
-         <Link to="/">
-          <img src={logo} alt='logo' className="logo/>
-          <span> green factory </span>
+         <Link to="/" className="logo">
+          <img src={logo} alt='logo' className="logo__img"/>
+          <span className="logo__text"> green factory </span>
          </Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />

@@ -1,4 +1,6 @@
-
+header {
+  padding: 5px 0;
+}
 
 .navbar-nav {
   
@@ -10,7 +12,23 @@
 
 .navbar-nav__link {
   text-transform: capitalize;
-  color: #fff;
+  color: #333;
   font-size: 14px;
-  padding: 5px;
+  padding: 5px 10px;
+}
+
+.logo__img {
+  height: 30px;
+  vertical-align: middle;
+}
+
+.logo__text {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #00cc00;
+}
+
+a:hover {
+  text-decoration: none !important;
 }
