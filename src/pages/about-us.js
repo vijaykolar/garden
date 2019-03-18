@@ -15,7 +15,7 @@ class AboutUs extends React.Component {
       alt: 'Imagealt',
       heading: 'about us',
       subHeading: 'Lorem ipsum',
-      sectionHeading: 'GreenFactory offers a full-service garden design to clients.',
+      sectionHeading: 'Green Factory offers a full-service garden design to clients.',
       sectionInfo: 'We work with a select group of landscape contractors, water feature and lighting design specialists to ensure the garden design process, from initial concept to project completion, is smooth and seamless.'
 
     }
