@@ -1,11 +1,15 @@
 import React from 'react'
 
-export default function ProductList(props) {
-    // console.log(props)
-  return (
-    <div>
-      Product list
-      { props.onLoad }
-    </div>
-  )
+class ProductList extends React.Component {
+  render() {
+
+      return (
+        <div>
+          Product list
+          { this.props.pictureLoad }
+        </div>
+      );
+  }
 }
+
+export default ProductList;

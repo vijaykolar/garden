@@ -14,24 +14,12 @@ class IndexPage extends React.Component {
     super();
     this.state = {
       pictures: [
-        // { title: 'title 1', id: 1 },
-        // { title: 'title 1', id: 2 },
+        { title: 'title 1', id: 1 },
+        { title: 'title 1', id: 2 },
       ],
       count: 0
     }
   }
-
-  componentDidMount() {
-  
-    let pictures = this.state.pictures;
-    
-    // let pictures = this.state.pictures.map((pic) => console.log(pic.title))
-    this.setState({
-      pictures: pictures
-    })
-  }
-
-  
 
   render() {
     return (  
@@ -39,8 +27,8 @@ class IndexPage extends React.Component {
         <SEO title="Home" keywords={[`Garden`, `Vertical garden`, `Garden providers`]} />
         <section className="section">
           <div className="container">
-            <SectionTitle title="work" />
-            <ProductList onLoad={this.state.pictures} />
+            <SectionTitle title="works" />
+            {/* <ProductList pictureLoad={this.state.pictures} /> */}
           </div>
         </section>
       </Layout>

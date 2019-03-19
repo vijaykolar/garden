@@ -3,6 +3,7 @@ import { Banner } from '../components/Banner';
 // import { Link } from "gatsby"
 import { SectionTitle } from '../components/SectionTitle';
 import { SectionInfo } from '../components/SectionInfo';
+import { Card } from '../components/Card';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -14,7 +15,7 @@ class AboutUs extends React.Component {
       bannerURL: 'https://images.pexels.com/photos/1811991/pexels-photo-1811991.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
       alt: 'Imagealt',
       heading: 'about us',
-      subHeading: 'Lorem ipsum',
+      subHeading: 'we destroy the envirnoment Margaret Mead',
       sectionHeading: 'Green Factory offers a full-service garden design to clients.',
       sectionInfo: 'We work with a select group of landscape contractors, water feature and lighting design specialists to ensure the garden design process, from initial concept to project completion, is smooth and seamless.'
 
@@ -42,6 +43,27 @@ class AboutUs extends React.Component {
             </div>
           </div>
         </section>
+
+        <section className="section">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-10 d-md-flex offset-md-1 px-0"> 
+              <div className="col-md-4">
+               <Card src={this.state.bannerURL} title="1" />
+              </div>
+              <div className="col-md-4">
+               <Card src={this.state.bannerURL} title="2" />
+              </div>
+              <div className="col-md-4">
+               <Card src={this.state.bannerURL} title="3" />
+              </div>
+
+
+              </div>
+            </div>
+          </div>
+        </section>
+        
       </Layout>
     );
   }
