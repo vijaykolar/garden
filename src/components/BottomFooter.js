@@ -4,7 +4,7 @@ import './bottom-footer.css';
 
 export const BottomFooter = () => {
   return(
-    <section class="hidden-sm nav-bottom">
+    <section class="nav-bottom">
       <div className="container">
 
         <ul className="d-flex align-items-center mb-0">
