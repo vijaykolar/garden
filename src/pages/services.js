@@ -14,7 +14,7 @@ class Services extends React.Component {
       bannerURL: 'https://images.pexels.com/photos/1811991/pexels-photo-1811991.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
       alt: 'Imagealt',
       heading: 'Services',
-      subHeading: 'we destroy the envirnoment Margaret Mead',
+      subHeading: 'we destroy  the envirnoment Margaret Mead',
       sectionHeading: 'Green Factory offers a full-service garden design to clients.',
       sectionInfo: 'We work with a select group of landscape contractors, water feature and lighting design specialists to ensure the garden design process, from initial concept to project completion, is smooth and seamless.'
 
