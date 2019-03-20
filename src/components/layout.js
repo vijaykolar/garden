@@ -11,6 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header";
 import { Footer } from "./Footer";
+import { BottomFooter } from "./BottomFooter";
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import "./layout.css";
 import './section.css'
@@ -33,6 +34,7 @@ const Layout = ({ children }) => (
           <main>{children}</main>
          
         <Footer />
+        <BottomFooter />
         
       </React.Fragment>
     )}
