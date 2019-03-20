@@ -57,8 +57,6 @@ class AboutUs extends React.Component {
               <div className="col-md-4">
                <Card src={this.state.bannerURL} title="3" />
               </div>
-
-
               </div>
             </div>
           </div>
