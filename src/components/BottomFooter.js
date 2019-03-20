@@ -15,10 +15,10 @@ export const BottomFooter = () => {
             <Link to="/about-us/" className="navbar-nav__link">about us</Link>
           </li>
           <li>
-            <Link to="/Services/" className="navbar-nav__link">services</Link>
+            <Link to="/services/" className="navbar-nav__link">services</Link>
           </li>
           <li>
-            <Link to="/Contact/" className="navbar-nav__link">contact</Link>
+            <Link to="/contact/" className="navbar-nav__link">contact</Link>
           </li>
 
         </ul>
